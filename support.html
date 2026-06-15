@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — IFSA Global</title>
+<style>
+  :root {
+    --blue: #05506A;
+    --ink: #1a2733;
+    --muted: #5a6b78;
+    --line: #e2e8ed;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6; font-size: 17px;
+  }
+  header { background: var(--blue); color: #fff; padding: 40px 24px 36px; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header .wrap { display: flex; align-items: center; gap: 16px; }
+  .mark {
+    width: 44px; height: 44px; flex: 0 0 44px;
+    border: 3px solid #fff; border-radius: 50%; position: relative;
+  }
+  .mark::before, .mark::after {
+    content: ""; position: absolute; inset: 0;
+    border: 1.5px solid #fff; border-radius: 50%;
+  }
+  .mark::before { transform: scaleX(0.5); }
+  .mark::after { transform: scaleY(0.5); }
+  header h1 { font-size: 22px; margin: 0; font-weight: 700; letter-spacing: 0.3px; }
+  header p { margin: 2px 0 0; opacity: 0.85; font-size: 14px; }
+  main { padding: 36px 24px 64px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; color: var(--blue); font-weight: 700; }
+  .contact {
+    background: #f4f8fa; border: 1px solid var(--line); border-radius: 12px;
+    padding: 20px 22px; margin: 24px 0;
+  }
+  .contact a { color: var(--blue); font-weight: 600; font-size: 19px; text-decoration: none; }
+  ul { padding-left: 22px; } li { margin: 6px 0; }
+  a { color: var(--blue); }
+  footer {
+    border-top: 1px solid var(--line); padding: 24px;
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="mark" aria-hidden="true"></div>
+    <div>
+      <h1>IFSA Global — Support</h1>
+      <p>International Fire Suppression Alliance</p>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <p>Need help with the IFSA Global app? We're here to assist.</p>
+
+    <div class="contact">
+      <p style="margin:0 0 4px; color:var(--muted); font-size:14px;">Contact us</p>
+      <a href="mailto:MFessenden@ifsa.global">MFessenden@ifsa.global</a>
+    </div>
+
+    <h2>Common questions</h2>
+    <ul>
+      <li><strong>Creating an account:</strong> Tap Register, enter your details, and confirm your email with the code we send you.</li>
+      <li><strong>Didn't receive your code:</strong> Check your spam folder. Codes can take a minute to arrive. You can request a new one from the confirmation screen.</li>
+      <li><strong>Resetting your password:</strong> On the login screen, tap "Forgot password," and we'll email you a code to set a new one.</li>
+      <li><strong>Changing your language:</strong> The app supports many languages. Choose your preferred language in the app to translate content.</li>
+      <li><strong>Deleting your account:</strong> Open your profile and select the account deletion option. This permanently removes your account and data.</li>
+    </ul>
+
+    <h2>Privacy</h2>
+    <p>Read our <a href="./privacy.html">Privacy Policy</a> to learn how your information is handled.</p>
+
+    <h2>Response time</h2>
+    <p>We aim to respond to support requests within a few business days.</p>
+  </div>
+</main>
+<footer>
+  © 2026 International Fire Suppression Alliance. All rights reserved.
+</footer>
+</body>
+</html>
